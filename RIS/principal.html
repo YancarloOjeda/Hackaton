@@ -29,8 +29,7 @@
                 <div class="container">
                     <div class="collapse navbar-collapse" id="ftco-nav">
                         <ul class="navbar-nav ml-auto">
-                            <!-- href = link a donde apunta -->
-                            <li class="nav-item"><a href="#Home" class="nav-link">Inicio</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
+                            <li class="nav-item"><a href="#Perfil" class="nav-link">Inicio</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
                         </ul>
 
                         <input type="email" class="form-control form-group text-center" name="Nombre" id="inputEmail3" placeholder="Buscar">
@@ -43,25 +42,26 @@
                 </div>
     </nav>
 
+    <!-- Perfil -->
     <section class="ftco-section bg-light" id="Perfil">
-        <!-- El id home apunta al men -->
         <div class="container">
             <div class="colum">
                 <div class="col-md-12 d-flex services align-self-stretch px-4 ftco-animate">
                     <div class="d-block services-wrap text-center">
                         <h3>Mi perfil</h3>
-                        <!-- Row es como el canvas -->
                         <div class="row">
-                            <!-- El maximo es 12 de ancho de la pagina -->
-                            <!-- class="col-md-XX puede modificar el tamaño de cada columna -->
                             <!-- COLUMNA 1 -->
                             <div class="col-md-6 d-flex services align-self-stretch px-4 ftco-animate">
                                 <div class="d-block services-wrap text-center">
-                                    <h5>Alejandro Rodrigo</h5>
-                                    <a href="#Home" class="image"><img src="Imagen/patrocinador.png" alt="" width=35% height=auto align=middle aria-label="RIS" focusable="false" /></a>
-
+                                    <h3>Walden Modular Equipment</h3>
+                                    <a href="http://walden-me.com/" class="image"><img src="Imagen/Walden_1.png" alt="" width=35% height=auto align=middle aria-label="RIS" focusable="false" /></a>
+                                    <p><br></p>
+                                    <h5>Alejandro Rodrigo </h5><p><br></p>
+                                    <a href="#Home" class="image"><img src="Imagen/patrocinador.png" alt="" width=20% height=auto align=middle aria-label="RIS" focusable="false" /></a>
+                                    <p><br></p>
                                     <p>Trabaja en Walden Modular Equipment </p>
                                     <p>Director de Operaci&oacute;n y Comercializaci&oacute;n </p>
+                                    <p>Correo elctr&oacute;nico: alejandro@gmail.com </p>
                                 </div>
                             </div>
 
@@ -110,10 +110,6 @@
                         <h3>Convocatorias vigentes</h3>
                         <!-- Row es como el canvas -->
                         <div class="row">
-                            <!-- El maximo es 12 de ancho de la pagina -->
-                            <!-- class="col-md-XX puede modificar el tamaño de cada columna -->
-                            <!-- Notar que cambie el col-md-4 -->
-                            <!-- COLUMNA 1 -->
                             <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
                                 <div class="d-block services-wrap text-center">
                                     <ul class="navbar-nav ml-auto">
@@ -181,7 +177,7 @@
         </div>
     </section>
 
-    <!-- Convocatorias Finalizadas -->
+    <!-- Convocatorias Declinadas -->
     <section class="ftco-section bg-light" id="ConDeclinadas">
         <!-- El id home apunta al men -->
         <div class="container">
@@ -210,7 +206,7 @@
         </div>
     </section>
 
-    <!-- Formulario -->
+    <!-- Formulario nueva convocatoria -->
     <section class="ftco-section bg-light" id="nuevaConvocatoria">
         <!-- El id home apunta al men -->
         <div class="container">
@@ -224,6 +220,12 @@
                             <div class="form-group">
                                 <div class="col-sm-12">
                                     <input type="email" class="form-control" name="Nombre" id="inputEmail3" placeholder="Problema" required>
+                                </div>
+                            </div>
+                            <label for="fname">C&ocirc;digo del proyecto:</label><br>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="email" class="form-control" name="Nombre" id="inputEmail3" placeholder="C&ocirc;digo" required>
                                 </div>
                             </div>
                             <label for="lname">Monto aproximado:</label><br>
@@ -244,10 +246,15 @@
                             </div>
                         </form>
 
-                        <label for="fname">Fecha de finalizaci&oacute;n:</label><br>
+                        <label for="fname">Fecha de finalizaci&oacute;n de la convocatoria:</label><br>
                         <input type="date" id="start" name="trip-start"
                                value="2020-10-11"
-                               min="2020-10-11" max="2021-12-31">
+                               min="2020-10-11" max="2021-12-31"><p><br /></p>
+
+                        <label for="fname">Fecha de estimada de para finalizar el proyecto:</label><br>
+                        <input type="date" id="start" name="trip-start"
+                               value="2020-10-11"
+                               min="2020-10-11" max="2021-12-31"><p><br /></p>
                         <input type="submit" value="Convocar">
 
                     </div>
