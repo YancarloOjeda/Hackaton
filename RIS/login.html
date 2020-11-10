@@ -20,9 +20,73 @@
 </head>
 
 <body>
+
+
+	<!-- Barra Navegacion -->
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="fa fa-bars"></span> Menu
+		</button>
+		<div class="collapse navbar-collapse" id="ftco-nav">
+			<ul class="navbar-nav ml-auto">
+				<!-- href = link a donde apunta -->
+				<li class="nav-item"><a href="#RIS" class="nav-link">RIS</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
+				<li class="nav-item"><a href="#Login" class="nav-link">Log in</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
+				<!--<li class="nav-item"><a href="#Login" class="image"><img src="Images/P_1.png" alt="" width=5% height=auto align=left /></a> </li>  Link 1, Superior Derecha o hambuergasa -->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+<!-- Ejemplo imagen al centro y texto -->
+<section class="ftco-section bg-light"  id="Ris"> <!-- El id home apunta al men -->
+	<div class="container">
+			<div class="col-md-12 d-flex services align-self-stretch px-4 ftco-animate">
+				<div class="d-block services-wrap text-center">
+                    <a href="http://walden-me.com/" class="image"><img src="Imagen/Logo.jpeg" alt="" width=80% height=auto align=middle /></a>
+				</div>
+			</div>
+			<div class="col-md-12 d-flex services align-self-stretch px-4 ftco-animate">
+				<div class="d-block services-wrap text-center">	
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ikfMZ9uFnGI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>  
+			</div>
+			<div class="col-md-12 d-flex services align-self-stretch px-4 ftco-animate">
+				<div class="d-block services-wrap text-center">
+					<p><br></p>
+					<h3>Aliados</h3>
+					<div class="row">
+						<div class="col-md-3 d-flex services align-self-stretch px-4 ftco-animate">
+								<div class="d-block services-wrap text-center">
+									<a href="http://walden-me.com/" class="image"><img src="Images/E_1.png" alt="" width=50% height=auto align=middle /></a>
+								</div>            
+						</div> 
+						<div class="col-md-3 d-flex services align-self-stretch px-4 ftco-animate">
+								<div class="d-block services-wrap text-center">
+									<a href="http://walden-me.com/" class="image"><img src="Images/E_2.png" alt="" width=50% height=auto align=middle /></a>
+								</div>            
+						</div> 
+						<div class="col-md-3 d-flex services align-self-stretch px-4 ftco-animate">
+								<div class="d-block services-wrap text-center">
+									<a href="http://walden-me.com/" class="image"><img src="Images/E_3.png" alt="" width=50% height=auto align=middle /></a>
+								</div>            
+						</div> 
+						<div class="col-md-3 d-flex services align-self-stretch px-4 ftco-animate">
+								<div class="d-block services-wrap text-center">
+									<a href="http://walden-me.com/" class="image"><img src="Images/E_4.png" alt="" width=50% height=auto align=middle /></a>
+								</div>            
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
     <!-- Las secciones son nuevos cuadros -->
     <!-- Ejemplo imagen al centro y texto -->
-    <section class="ftco-section bg-light" id="Home">
+    <section class="ftco-section bg-light" id="Login">
         <!-- El id home apunta al men -->
         <div class="container">
             <div class="colum">
@@ -38,10 +102,26 @@
                         <!-- <h1> texto </h1> -->
                         <!-- <h2> texto </h2> -->
                         <p><br></p>
-                        <h1>Bienvenido a RIS</h1>
-                        <h5>Ingresa tus datos de identificaci&oacute;n</h5>
+                        <!--<h1>Bienvenido a RIS</h1>-->
+                        <!--<h5>Ingresa tus datos de identificaci&oacute;n</h5>-->
                         
-                        <div class="d-block services-wrap text-center">
+                        <div class="d-block services-wrap text-center">                       
+
+                            <div class="btn-group dropright">
+                                <button type="button" class="btn btn-secondary">
+                                    Patrocinador o Experto-Creativo?
+                                </button>
+                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="sr-only">Toggle Dropright</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item">Patrocinador</a>
+                                    <a class="dropdown-item">Experto-creativo</a>
+                                </div>
+                            </div>
+						
+							<p><br></p>
+						
                             <div class="form-group text-center">
                                 <div class="col-sm-12 form-group text-center">
                                     <input type="email" class="form-control form-group text-center" name="Nombre" id="inputEmail3" placeholder="Email" required>
@@ -52,32 +132,25 @@
                                 <div class="col-sm-12">
                                     <input type="password" class="form-control form-group text-center" name="email" id="inputEmail3" placeholder="Contrase&ntilde;a" required>
                                 </div>
-                            </div>                          
+                            </div>   
 
-                            <div class="btn-group dropright">
-                                <button type="button" class="btn btn-secondary">
-                                    Usuario 
-                                </button>
-                                <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="sr-only">Toggle Dropright</span>
-                                </button>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item">Patrocinador</a>
-                                    <a class="dropdown-item">Experto-creativo</a>
+                            <div class="form-group">
+                                <div class="col-sm-offset-12 col-sm-12">
+                                    <a type="submit" class="btn btn-primary btn-outline-primary" href="principal.html">Registro</a>
                                 </div>
-                            </div>
+                            </div> 
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-12 col-sm-12">
+                                    <a type="submit" class="btn btn-primary btn-outline-primary" href="principal.html">Entrar</a>
+                                </div>
+                            </div> 
 
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="dropdownCheck">
                                 <label class="form-check-label" for="dropdownCheck">
                                     Recordarme 
                                 </label>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-sm-offset-12 col-sm-12">
-                                    <a type="submit" class="btn btn-default" href="principal.html">Entrar</a>
-                                </div>
                             </div>
 
                         </div>
