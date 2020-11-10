@@ -20,81 +20,78 @@
 </head>
 
 <body>
+
+    <!-- Barra Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <a class="image">
+            <img src="Imagen/Logo.jpeg" alt="" width=40% height=auto align=middle aria-label="RIS" focusable="false" /><a>
+
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="ftco-nav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#Perfil" class="nav-link">Dra. Laura Mendoza</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
+                        </ul>
+
+                        <input type="email" class="form-control form-group text-center" name="Nombre" id="inputEmail3" placeholder="Buscar">
+                        <a class="image"><img src="Imagen/search.png" alt="" width=50% height=auto align=middle aria-label="RIS" focusable="true" /></a>
+
+                    </div>
+
+                    
+                </div>
+    </nav>
+
     
-    
-    <!--  -->
-    <section class="ftco-section bg-light" id="">
+    <!-- Convocatorias Vigentes -->
+    <section class="ftco-section bg-light" id="ConVigentes">
+        <!-- El id home apunta al men -->
         <div class="container">
             <div class="colum">
                 <div class="col-md-12 d-flex services align-self-stretch px-4 ftco-animate">
-                    <div class="d-block services-wrap text-center">
-                        <h3>Convocatoria Big Data</h3>
-                        <h6>Se han postulado 2 expertos-creativos</h6>
+                    <div class="d-block services-wrap text-left">
+                        <h3>Convocatorias a las que te has postulado</h3>
+                        <!-- Row es como el canvas -->
                         <div class="row">
                             <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
                                 <div class="d-block services-wrap text-center">
-                                    <h5>Yancarlo Ojeda</h5>
-                                    <a class="image"><img src="Imagen/yan.png" alt="" width=45% height=auto align=middle aria-label="RIS" focusable="false" /></a>
-
-                                    <p>2 a&ntilde;os de experiencia </p>
-                                    <p>5 proyectos finalizados </p>
-                                    <p>Inter&eacute;s por machine learning, desarrollo de software y Python</p>
-
-                                    <form action="/action_page.php">
-                                        <label for="fname">Propuesta:</label><br>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <input type="email" class="form-control" name="Nombre" id="inputEmail3" placeholder="Propongo usar...">
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <a class="image"><img src="Imagen/cincoEstrellas.jfif" alt="" width=45% height=auto align=center aria-label="RIS" focusable="false" /></a>
-                                    <p><br></p>
-                                    <input type="submit" value="Aceptar">
-                                    <input type="submit" value="Rechazar">
-
+                                    <ul class="navbar-nav ml-auto">
+                                        <!-- href = link a donde apunta -->
+                                        <h5>Convocatoria Recursos humanos-#101</h5>
+                                        <li class="nav-item"><a href="convocatoriasVigentes.html" class="nav-link">En espera de aprovaci&oacute;n</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
+                                        <input type="submit" value="Ver postulaci&oacute;n">
+                                    </ul>
                                 </div>
                             </div>
 
                             <!-- COLUMNA 2 -->
                             <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
                                 <div class="d-block services-wrap text-center">
-                                    <h5>Carlos Esparza</h5>
-                                    <a class="image"><img src="Imagen/pepe.jfif" alt="" width=45% height=auto align=middle /></a>
-                                    <p>3 a&ntilde;os de experiencia </p>
-                                    <p>5 proyectos finalizados </p>
-                                    <p>Inter&eacute;s por Python, modelos matem&aacute;ticos y redes neurales </p>
+                                    <ul class="navbar-nav ml-auto">
+                                        <h5>Convocatoria Big Data-#207</h5>
+                                        <li class="nav-item"><a href="pitch_experto.html" class="nav-link">Felicidades, tu propuesta pas&oacute; a la siguiente ronda!</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
+                                        <h5><li class="nav-item"><a href="pitch_experto.html" class="nav-link">Enviar Pitch!</a></li></5> <!-- Link 1, Superior Derecha o hambuergasa -->
 
-                                    <form action="/action_page.php">
-                                        <label for="fname">Propuesta:</label><br>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <input type="email" class="form-control" name="Nombre" id="inputEmail3" placeholder="Propongo usar...">
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <a class="image"><img src="Imagen/cincoEstrellas.jfif" alt="" width=45% height=auto align=center aria-label="RIS" focusable="false" /></a>
-                                    <p><br></p>
-                                    <input type="submit" value="Aceptar">
-                                    <input type="submit" value="Rechazar">
+                                    </ul>
+                                </div>
+                            </div>
 
+                            <!-- COLUMNA 3 -->
+                            <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
+                                <div class="d-block services-wrap text-center">
+                                    <ul class="navbar-nav ml-auto">
+                                        <h5>Convocatoria Machine Learning-#404</h5>
+                                        <li class="nav-item"><a href="#Home" class="nav-link">Lo sentimos, tu propuesta no pas&oacute; a la siguiente ronda</a></li> <!-- Link 1, Superior Derecha o hambuergasa -->
+                                        <input type="submit" value="Ver revisi&oacute;n">
+                                    </ul>
                                 </div>
                             </div>
 
                         </div>
-                        <h5>Esta convocatoria termina el 31-12-2020</h5>
-                        <input type="submit" value="Declinar convocatoria">
                     </div>
-                    
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
-
 
     <!-- FOT -->
     <br></br>
